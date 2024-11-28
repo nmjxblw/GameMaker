@@ -45,5 +45,11 @@
     <Compile Include="Utilities\Global.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Unity\MonoBehaviour\" />
+    <Folder Include="Unity\Plugin\" />
+    <Folder Include="Unity\ScriptableObject\" />
+    <Folder Include="Unity\UnityEditor\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

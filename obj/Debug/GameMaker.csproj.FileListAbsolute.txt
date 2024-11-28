@@ -1,0 +1,6 @@
+C:\Users\隆元\source\repos\GameMaker\bin\Debug\GameMaker.dll
+C:\Users\隆元\source\repos\GameMaker\bin\Debug\GameMaker.pdb
+C:\Users\隆元\source\repos\GameMaker\obj\Debug\GameMaker.csproj.AssemblyReference.cache
+C:\Users\隆元\source\repos\GameMaker\obj\Debug\GameMaker.csproj.CoreCompileInputs.cache
+C:\Users\隆元\source\repos\GameMaker\obj\Debug\GameMaker.dll
+C:\Users\隆元\source\repos\GameMaker\obj\Debug\GameMaker.pdb

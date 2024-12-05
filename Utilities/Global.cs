@@ -23,7 +23,7 @@ namespace GameMaker
 		/// </summary>
 		private static readonly Dictionary<object, dynamic> _storage = new Dictionary<object, dynamic>();
 		/// <summary>
-		/// 获取只读字典
+		/// {Global}类中的静态只读字典
 		/// </summary>
 		public static Dictionary<object, dynamic> Storage => _storage;
 		/// <summary>

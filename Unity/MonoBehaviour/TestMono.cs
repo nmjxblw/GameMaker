@@ -10,7 +10,7 @@ namespace GameMaker
 	public class TestMono: MonoBehaviour
 	{
 		void Awake() {
-			print("Test");
+			Recorder.Record("测试成功");
 		}
 	}
 }

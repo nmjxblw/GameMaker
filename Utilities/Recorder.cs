@@ -83,7 +83,7 @@ namespace GameMaker
 			StackTrace stackTrace = new StackTrace();
 			StackFrame stackFrame = stackTrace.GetFrame(1);
 			string callingName = stackFrame.GetMethod().DeclaringType.FullName;
-			Write(RecordPaths[0], $"[{callingName}]\t{msg}", Enable);
+			Write(RecordPaths[0], string.Format("[{0:50}]\t{1}", callingName, msg), Enable);
 		}
 		/// <summary>
 		/// 报错记录
@@ -91,6 +91,9 @@ namespace GameMaker
 		/// <param name="err_msg"></param>
 		public static void RecordError(string err_msg) => Write(RecordPaths[1], "\n" + err_msg, Enable);
 	}
+	/// <summary>
+	/// 路径辅助类
+	/// </summary>
 	public class PathHelper
 	{
 		/// <summary>

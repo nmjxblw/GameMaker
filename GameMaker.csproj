@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="Unity\MonoBehaviour\TestMono.cs" />
     <Compile Include="Unity\ScriptableObject\TestSO.cs" />
+    <Compile Include="Utilities\QuickDictionary.cs" />
     <Compile Include="Utilities\Recorder.cs" />
     <Compile Include="Utilities\Global.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

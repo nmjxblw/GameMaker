@@ -4,7 +4,9 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UnityEditor;
 using UnityEngine;
+using System.Dynamic;
 namespace GameMaker
 {
 	[CreateAssetMenu(fileName = "TestSO", menuName = "GameMaker/TestSO")]
@@ -27,8 +29,13 @@ namespace GameMaker
 }
 namespace GameMaker.Unity.Test
 {
+	[Serializable]
+	/// <summary>
+	/// 测试用config
+	/// </summary>
 	public class Config
 	{
-
+		public string name;
+		public dynamic data;
 	}
 }

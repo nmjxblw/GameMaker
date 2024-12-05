@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 namespace GameMaker
 {
-	[CreateAssetMenu(fileName = "TestSO", menuName = "GameMaker")]
+	[CreateAssetMenu(fileName = "TestSO", menuName = "GameMaker/TestSO")]
 	public class TestSO : ScriptableObject, IComparable<TestSO>
 	{
 		[SerializeField]

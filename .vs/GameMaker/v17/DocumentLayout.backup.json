@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|c:\\users\\\u9686\u5143\\source\\repos\\gamemaker\\utilities\\recorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|solutionrelative:utilities\\recorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|c:\\users\\\u9686\u5143\\source\\repos\\gamemaker\\unity\\monobehaviour\\singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|solutionrelative:unity\\monobehaviour\\singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|c:\\users\\\u9686\u5143\\source\\repos\\gamemaker\\utilities\\quickdictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\unity\\monobehaviour\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|solutionrelative:unity\\monobehaviour\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\utilities\\quickdictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|solutionrelative:utilities\\quickdictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\utilities\\recorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|solutionrelative:utilities\\recorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\unity\\monobehaviour\\testmono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -52,19 +60,19 @@
         },
         {
           "DockedHeight": 128,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "QuickDictionary.cs",
-              "DocumentMoniker": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Utilities\\QuickDictionary.cs",
-              "RelativeDocumentMoniker": "Utilities\\QuickDictionary.cs",
-              "ToolTip": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Utilities\\QuickDictionary.cs",
-              "RelativeToolTip": "Utilities\\QuickDictionary.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAGAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Singleton.cs",
+              "DocumentMoniker": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Unity\\MonoBehaviour\\Singleton.cs",
+              "RelativeDocumentMoniker": "Unity\\MonoBehaviour\\Singleton.cs",
+              "ToolTip": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Unity\\MonoBehaviour\\Singleton.cs",
+              "RelativeToolTip": "Unity\\MonoBehaviour\\Singleton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T06:21:01.717Z",
+              "WhenOpened": "2024-12-06T02:44:33.192Z",
               "EditorCaption": ""
             },
             {
@@ -77,7 +85,31 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Unity\\MonoBehaviour\\GameManager.cs",
+              "RelativeDocumentMoniker": "Unity\\MonoBehaviour\\GameManager.cs",
+              "ToolTip": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Unity\\MonoBehaviour\\GameManager.cs",
+              "RelativeToolTip": "Unity\\MonoBehaviour\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T02:44:04.113Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "QuickDictionary.cs",
+              "DocumentMoniker": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Utilities\\QuickDictionary.cs",
+              "RelativeDocumentMoniker": "Utilities\\QuickDictionary.cs",
+              "ToolTip": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Utilities\\QuickDictionary.cs",
+              "RelativeToolTip": "Utilities\\QuickDictionary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T06:21:01.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "TestMono.cs",
               "DocumentMoniker": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Unity\\MonoBehaviour\\TestMono.cs",
               "RelativeDocumentMoniker": "Unity\\MonoBehaviour\\TestMono.cs",
@@ -85,25 +117,23 @@
               "RelativeToolTip": "Unity\\MonoBehaviour\\TestMono.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAswAwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T06:24:11.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T06:24:11.974Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Recorder.cs",
               "DocumentMoniker": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Utilities\\Recorder.cs",
               "RelativeDocumentMoniker": "Utilities\\Recorder.cs",
               "ToolTip": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Utilities\\Recorder.cs",
               "RelativeToolTip": "Utilities\\Recorder.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAYwFUAAABTAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T03:10:00.316Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T03:10:00.316Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "TestSO.cs",
               "DocumentMoniker": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Unity\\ScriptableObject\\TestSO.cs",
               "RelativeDocumentMoniker": "Unity\\ScriptableObject\\TestSO.cs",
@@ -111,12 +141,11 @@
               "RelativeToolTip": "Unity\\ScriptableObject\\TestSO.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T07:51:08.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T07:51:08.869Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Global.cs",
               "DocumentMoniker": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Utilities\\Global.cs",
               "RelativeDocumentMoniker": "Utilities\\Global.cs",
@@ -124,8 +153,7 @@
               "RelativeToolTip": "Utilities\\Global.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T10:00:10.421Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T10:00:10.421Z"
             }
           ]
         }

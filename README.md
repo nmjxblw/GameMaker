@@ -10,6 +10,9 @@
 参考：MonoBehaviour 的生命周期
 </summary>
 
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    width="304.45029mm"
    height="634.20312mm"

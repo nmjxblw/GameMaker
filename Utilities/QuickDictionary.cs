@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using UnityEditor;
 using UnityEngine;
 #if true
-namespace GameMaker.Utilities
+namespace GameMaker
 {
 	[Serializable]
 	public class QuickDictionary<TKey, TValue>

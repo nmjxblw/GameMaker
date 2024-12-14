@@ -37,6 +37,9 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Diagnostics.Tracing" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL" />
+    <Reference Include="System.Text.Encodings.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL" />
+    <Reference Include="System.Text.Json, Version=8.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL" />
     <Reference Include="UnityEditor.CoreModule">
       <HintPath>..\..\..\..\..\Program Files\Unity\Hub\Editor\2022.3.48f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
     </Reference>
@@ -419,6 +422,7 @@
     <Compile Include="Unity\MonoBehaviour\Singleton.cs" />
     <Compile Include="Unity\MonoBehaviour\TestMono.cs" />
     <Compile Include="Unity\ScriptableObject\TestSO.cs" />
+    <Compile Include="Utilities\JsonHelper.cs" />
     <Compile Include="Utilities\QuickDictionary.cs" />
     <Compile Include="Utilities\Recorder.cs" />
     <Compile Include="Utilities\Global.cs" />

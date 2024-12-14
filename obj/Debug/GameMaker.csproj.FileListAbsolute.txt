@@ -4,3 +4,13 @@ C:\Users\隆元\source\repos\GameMaker\obj\Debug\GameMaker.csproj.AssemblyRefere
 C:\Users\隆元\source\repos\GameMaker\obj\Debug\GameMaker.csproj.CoreCompileInputs.cache
 C:\Users\隆元\source\repos\GameMaker\obj\Debug\GameMaker.dll
 C:\Users\隆元\source\repos\GameMaker\obj\Debug\GameMaker.pdb
+C:\Users\隆元\source\repos\GameMaker\bin\Debug\System.Memory.dll
+C:\Users\隆元\source\repos\GameMaker\bin\Debug\System.Text.Json.dll
+C:\Users\隆元\source\repos\GameMaker\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\隆元\source\repos\GameMaker\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\隆元\source\repos\GameMaker\bin\Debug\System.Buffers.dll
+C:\Users\隆元\source\repos\GameMaker\bin\Debug\System.ValueTuple.dll
+C:\Users\隆元\source\repos\GameMaker\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\隆元\source\repos\GameMaker\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\隆元\source\repos\GameMaker\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\隆元\source\repos\GameMaker\obj\Debug\GameMaker.csproj.Up2Date

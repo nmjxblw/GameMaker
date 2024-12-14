@@ -22,8 +22,8 @@ namespace GameMaker
 		/// </summary>
 		public static bool Enable = false;
 		private static readonly object LockObj = new object();
-		private static readonly string MainRecordsPath = Directory.GetCurrentDirectory() + $"\\Recorder\\MainRecords";
-		private static readonly string ErrorRecordsPath = Directory.GetCurrentDirectory() + $"\\Recorder\\ErrorRecords";
+		private static readonly string MainRecordsPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Recorder", "MainRecords");
+		private static readonly string ErrorRecordsPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Recorder", "ErrorRecords");
 		private static readonly List<string> RecordPaths = new List<string>() { MainRecordsPath, ErrorRecordsPath };
 		/// <summary>
 		/// 私有构造，在构造时自动注册记录报错

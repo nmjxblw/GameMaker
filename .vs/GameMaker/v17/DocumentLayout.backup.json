@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|c:\\users\\\u9686\u5143\\source\\repos\\gamemaker\\utilities\\json.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|solutionrelative:utilities\\json.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|c:\\users\\\u9686\u5143\\source\\repos\\gamemaker\\utilities\\jsonhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|solutionrelative:utilities\\jsonhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|c:\\users\\\u9686\u5143\\source\\repos\\gamemaker\\utilities\\recorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -60,12 +60,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Json.cs",
-              "DocumentMoniker": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Utilities\\Json.cs",
-              "RelativeDocumentMoniker": "Utilities\\Json.cs",
-              "ToolTip": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Utilities\\Json.cs*",
-              "RelativeToolTip": "Utilities\\Json.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAEAAAAAAAAAA==",
+              "Title": "JsonHelper.cs",
+              "DocumentMoniker": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Utilities\\JsonHelper.cs",
+              "RelativeDocumentMoniker": "Utilities\\JsonHelper.cs",
+              "ToolTip": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Utilities\\JsonHelper.cs",
+              "RelativeToolTip": "Utilities\\JsonHelper.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAowBUAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-14T10:07:52.995Z",
               "EditorCaption": ""

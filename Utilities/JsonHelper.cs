@@ -33,7 +33,13 @@ namespace GameMaker
 	/// </example>
 	public static class JsonHelper
 	{
+		/// <summary>
+		/// Json文件主路径
+		/// </summary>
 		public readonly static string MainJsonFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources", "JsonFiles");
+		/// <summary>
+		/// 序列化设定
+		/// </summary>
 		private static readonly JsonSerializerOptions JsonOptions = new JsonSerializerOptions()
 		{
 			PropertyNameCaseInsensitive = true, // 属性名不区分大小写
@@ -45,7 +51,13 @@ namespace GameMaker
 			Converters = { new JsonStringEnumConverter(JsonNamingPolicy.CamelCase), }, // 将枚举型转化成字符串
 			Encoder = JavaScriptEncoder.Create(UnicodeRanges.All), // 创建一个支持特定 Unicode 范围的编码器。
 		};
+		/// <summary>
+		/// 线程锁
+		/// </summary>
 		private readonly static object LockObj = new object();
+		/// <summary>
+		/// 静态实例化
+		/// </summary>
 		static JsonHelper()
 		{
 			if (!Directory.Exists(MainJsonFilePath))
@@ -54,20 +66,48 @@ namespace GameMaker
 			}
 		}
 		/// <summary>
+		/// Json文件过滤器
+		/// </summary>
+		public static string JsonFilter { get; } = "Json Files (*.json)|*.json|All Files (*.*)|*.*";
+		/// <summary>
 		/// 加载Json文件
 		/// </summary>
 		/// <typeparam name="T"></typeparam>
-		/// <param name="fileName"></param>
+		/// <param name="fileName">默认文件名包含绝对路径</param>
 		/// <returns></returns>
-		public static T Load<T>(string fileName)
+		public static T Load<T>(string fileName = default)
 		{
-			if (!fileName.EndsWith(".json", StringComparison.OrdinalIgnoreCase))
+			if (fileName == default)
 			{
-				fileName += ".json";
+				fileName = Shortcut.OpenFile(JsonFilter);
+				if (string.IsNullOrEmpty(fileName))
+					return default;
 			}
-			if (!File.Exists(Path.Combine(MainJsonFilePath, fileName)))
-				return default;
-			string jsonString = File.ReadAllText(Path.Combine(MainJsonFilePath, fileName));
+			else
+			{
+				if (!fileName.EndsWith(".json", StringComparison.OrdinalIgnoreCase))
+				{
+					fileName += ".json";
+				}
+				if (!File.Exists(fileName))
+				{
+					// 有可能是只传入了文件名字，添加一下绝对路径
+					if (!fileName.Contains(MainJsonFilePath))
+					{
+						fileName = Path.Combine(MainJsonFilePath, fileName);
+					}
+					// 如果文件还是不存在
+					if (!File.Exists(fileName))
+					{
+						// 那就是文件地址写错了
+						// 手动导入文件
+						fileName = Shortcut.OpenFile(JsonFilter);
+						// 用户放弃，返回default值
+						if (string.IsNullOrEmpty(fileName)) return default;
+					}
+				}
+			}
+			string jsonString = File.ReadAllText(fileName);
 			if (string.IsNullOrEmpty(jsonString))
 				return default;
 			return JsonSerializer.Deserialize<T>(jsonString, JsonOptions);
@@ -77,25 +117,30 @@ namespace GameMaker
 		/// </summary>
 		/// <typeparam name="T"></typeparam>
 		/// <param name="data"></param>
-		/// <param name="fileName"></param>
-		/// <param name="customPath"></param>
+		/// <param name="fileNames"></param>
 		/// <returns></returns>
-		public static bool Save<T>(T data, string fileName = null, string customPath = null)
+		public static bool Save<T>(T data, params string[] fileNames)
 		{
 			try
 			{
+				if (data == null) return false;
+				string fileName;
 				lock (LockObj) // 确保线程安全
 				{
-					if (string.IsNullOrEmpty(fileName))
+					if (fileNames.Length <= 0)
 					{
-						fileName = data.ToString();
+						fileName = data.GetType().Name;
+					}
+					else
+					{
+						fileName = Path.Combine(Directory.GetCurrentDirectory(), Path.Combine(fileNames));
 					}
 					if (!fileName.EndsWith(".json", StringComparison.OrdinalIgnoreCase))
 					{
 						fileName += ".json";
 					}
 					// 确定保存路径
-					string savePath = string.IsNullOrEmpty(customPath) ? MainJsonFilePath : customPath;
+					string savePath = fileNames.Length <= 0 ? Shortcut.OpenFolder() ?? MainJsonFilePath : Path.GetDirectoryName(fileName) ?? MainJsonFilePath;
 
 					// 如果自定义路径不存在，则创建它
 					if (!Directory.Exists(savePath))
@@ -107,7 +152,7 @@ namespace GameMaker
 					string filePath = Path.Combine(savePath, fileName);
 
 					// 使用 StreamWriter 写入文件
-					using (StreamWriter writer = new StreamWriter(filePath, false))
+					using (StreamWriter writer = new StreamWriter(filePath, false,UnicodeEncoding.UTF8))
 					{
 						writer.Write(jsonString);
 					}

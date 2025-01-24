@@ -9,6 +9,7 @@ using System.Runtime.InteropServices;
 using System.Security.Permissions;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace GameMaker
 {
@@ -17,14 +18,16 @@ namespace GameMaker
 	/// </summary>
 	public static class Recorder
 	{
-		/// <summary>
-		/// 功能启用标识符
-		/// </summary>
-		public static bool Enable = false;
+		private static bool enable = false;
 		private static readonly object LockObj = new object();
 		private static readonly string MainRecordsPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Recorder", "MainRecords");
 		private static readonly string ErrorRecordsPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Recorder", "ErrorRecords");
 		private static readonly List<string> RecordPaths = new List<string>() { MainRecordsPath, ErrorRecordsPath };
+		/// <summary>
+		/// 功能启用标识符
+		/// </summary>
+		public static bool Enable { get => enable; set => enable = value; }
+
 		/// <summary>
 		/// 私有构造，在构造时自动注册记录报错
 		/// </summary>
@@ -39,12 +42,16 @@ namespace GameMaker
 					Directory.CreateDirectory(path);
 				}
 			}
+			// 记录未设置处理的错误
 			AppDomain.CurrentDomain.UnhandledException += (sender, e) =>
 			{
 				Exception ex = (Exception)e.ExceptionObject;
-				RecordError(ex.Message);
-				RecordError(ex.StackTrace);
-				Trace.WriteLine(ex.StackTrace);
+				if (ex != null)
+				{
+					RecordError(ex.Message);
+					RecordError(err_msg: ex.StackTrace);
+					Trace.WriteLine(message: ex.StackTrace);
+				}
 			};
 		}
 		/// <summary>
@@ -53,11 +60,11 @@ namespace GameMaker
 		/// <param name="enable">是否启用</param>
 		/// <param name="filePath">存写文件位置</param>
 		/// <param name="msg">存写内容</param>
-		public static void Write(string filePath, string msg, bool enable = true)
+		public static void Write(string msg = default, string filePath = default, bool enable = true, ContextLevel contextLevel = ContextLevel.Public)
 		{
 
-			if (!enable) return;
-
+			if (!enable || msg == default || contextLevel == ContextLevel.Private) return;
+			if (filePath == default) filePath = RecordPaths[0];
 			string path = PathHelper.GetRuntimeDirectory(filePath);
 
 			if (!Directory.Exists(path))
@@ -77,18 +84,30 @@ namespace GameMaker
 		/// 标准记录
 		/// </summary>
 		/// <param name="msg"></param>
-		public static void Record(string msg)
+		public static void Record(string msg = default)
 		{
-			StackTrace stackTrace = new StackTrace();
-			StackFrame stackFrame = stackTrace.GetFrame(1);
-			string callingName = stackFrame.GetMethod().DeclaringType.FullName;
-			Write(RecordPaths[0], string.Format("[{0:50}]\t{1}", callingName, msg), Enable);
+			try
+			{
+				if (msg == default) return;
+				StackTrace stackTrace = new StackTrace(true);
+				StackFrame stackFrame = stackTrace.GetFrame(1);
+				string callingName = stackFrame?.GetMethod()?.DeclaringType?.FullName;
+				Write(string.Format("[{0:50}]\t{1}", callingName, msg), RecordPaths[0], Enable, ContextLevel.Public);
+			}
+			catch (Exception ex)
+			{
+				Shortcut.Error(ex.Message);
+			}
 		}
 		/// <summary>
 		/// 报错记录
 		/// </summary>
 		/// <param name="err_msg"></param>
-		public static void RecordError(string err_msg) => Write(RecordPaths[1], "\n" + err_msg, Enable);
+		public static void RecordError(string err_msg = default)
+		{
+			if (err_msg == default) return;
+			Write("\n" + err_msg, RecordPaths[1], Enable, ContextLevel.Error);
+		}
 	}
 	/// <summary>
 	/// 路径辅助类
@@ -114,13 +133,13 @@ namespace GameMaker
 		//OSPlatform.Windows监测运行环境
 		private static bool IsWindowRunTime()
 		{
-			return System.Runtime.InteropServices.RuntimeInformation.IsOSPlatform(OSPlatform.Windows);
+			return RuntimeInformation.IsOSPlatform(OSPlatform.Windows);
 		}
 
 		//OSPlatform.Linux运行环境
 		private static bool IsLinuxRunTime()
 		{
-			return System.Runtime.InteropServices.RuntimeInformation.IsOSPlatform(OSPlatform.Linux);
+			return RuntimeInformation.IsOSPlatform(OSPlatform.Linux);
 		}
 
 		private static string GetLinuxDirectory(string path)
@@ -134,4 +153,34 @@ namespace GameMaker
 			return pathTemp.Replace("/", "\\");
 		}
 	}
+}
+/// <summary>
+/// 记录器内容的等级
+/// </summary>
+public enum ContextLevel
+{
+	/// <summary>
+	/// 无设置
+	/// </summary>
+	None = 0,
+	/// <summary>
+	/// 公开级别
+	/// </summary>
+	Public,
+	/// <summary>
+	/// 非公开级别
+	/// </summary>
+	Private,
+	/// <summary>
+	/// 警告级别
+	/// </summary>
+	Alert,
+	/// <summary>
+	/// 报错级别
+	/// </summary>
+	Error,
+	/// <summary>
+	/// 调试级别
+	/// </summary>
+	Debug,
 }

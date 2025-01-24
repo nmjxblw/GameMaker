@@ -1,12 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\unity\\GameMaker\\",
+  "WorkspaceRootPath": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|GameMaker||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|c:\\users\\\u9686\u5143\\source\\repos\\gamemaker\\utilities\\shortcut.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|solutionrelative:utilities\\shortcut.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|d:\\unity\\gamemaker\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|031911c8-6148-4e25-b1b1-44bca9a0c45c"
+      "AbsoluteMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Utilities\\Recorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|solutionrelative:Utilities\\Recorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\utilities\\jsonhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|solutionrelative:utilities\\jsonhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Utilities\\Sort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|solutionrelative:Utilities\\Sort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Utilities\\QuickDictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|solutionrelative:Utilities\\QuickDictionary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Utilities\\Global.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|solutionrelative:Utilities\\Global.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Unity\\ScriptableObject\\TestSO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|solutionrelative:Unity\\ScriptableObject\\TestSO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Unity\\MonoBehaviour\\TestMono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|solutionrelative:Unity\\MonoBehaviour\\TestMono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Unity\\MonoBehaviour\\Singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|solutionrelative:Unity\\MonoBehaviour\\Singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Unity\\MonoBehaviour\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2469517F-A1DB-4AB5-90F8-2565BEF52D5A}|GameMaker.csproj|solutionrelative:Unity\\MonoBehaviour\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -16,19 +50,183 @@
       "DocumentGroups": [
         {
           "DockedHeight": 614,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GameMaker",
-              "DocumentMoniker": "D:\\unity\\GameMaker\\GameMaker.csproj",
-              "RelativeDocumentMoniker": "GameMaker.csproj",
-              "ToolTip": "D:\\unity\\GameMaker\\GameMaker.csproj",
-              "RelativeToolTip": "GameMaker.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-01-10T16:28:06.796Z",
+              "Title": "Shortcut.cs",
+              "DocumentMoniker": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Utilities\\Shortcut.cs",
+              "RelativeDocumentMoniker": "Utilities\\Shortcut.cs",
+              "ToolTip": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Utilities\\Shortcut.cs",
+              "RelativeToolTip": "Utilities\\Shortcut.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAuwDkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T13:29:31.832Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Sort.cs",
+              "DocumentMoniker": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Utilities\\Sort.cs",
+              "RelativeDocumentMoniker": "Utilities\\Sort.cs",
+              "ToolTip": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Utilities\\Sort.cs",
+              "RelativeToolTip": "Utilities\\Sort.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T13:20:40.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Recorder.cs",
+              "DocumentMoniker": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Utilities\\Recorder.cs",
+              "RelativeDocumentMoniker": "Utilities\\Recorder.cs",
+              "ToolTip": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Utilities\\Recorder.cs",
+              "RelativeToolTip": "Utilities\\Recorder.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAMwGIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T16:33:05.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QuickDictionary.cs",
+              "DocumentMoniker": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Utilities\\QuickDictionary.cs",
+              "RelativeDocumentMoniker": "Utilities\\QuickDictionary.cs",
+              "ToolTip": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Utilities\\QuickDictionary.cs",
+              "RelativeToolTip": "Utilities\\QuickDictionary.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T16:32:31.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JsonHelper.cs",
+              "DocumentMoniker": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Utilities\\JsonHelper.cs",
+              "RelativeDocumentMoniker": "Utilities\\JsonHelper.cs",
+              "ToolTip": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Utilities\\JsonHelper.cs",
+              "RelativeToolTip": "Utilities\\JsonHelper.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAqwG8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T16:31:57.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Global.cs",
+              "DocumentMoniker": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Utilities\\Global.cs",
+              "RelativeDocumentMoniker": "Utilities\\Global.cs",
+              "ToolTip": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Utilities\\Global.cs",
+              "RelativeToolTip": "Utilities\\Global.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAADwvw8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T16:31:49.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TestSO.cs",
+              "DocumentMoniker": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Unity\\ScriptableObject\\TestSO.cs",
+              "RelativeDocumentMoniker": "Unity\\ScriptableObject\\TestSO.cs",
+              "ToolTip": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Unity\\ScriptableObject\\TestSO.cs",
+              "RelativeToolTip": "Unity\\ScriptableObject\\TestSO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T16:31:35.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TestMono.cs",
+              "DocumentMoniker": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Unity\\MonoBehaviour\\TestMono.cs",
+              "RelativeDocumentMoniker": "Unity\\MonoBehaviour\\TestMono.cs",
+              "ToolTip": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Unity\\MonoBehaviour\\TestMono.cs",
+              "RelativeToolTip": "Unity\\MonoBehaviour\\TestMono.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T16:31:24.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Singleton.cs",
+              "DocumentMoniker": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Unity\\MonoBehaviour\\Singleton.cs",
+              "RelativeDocumentMoniker": "Unity\\MonoBehaviour\\Singleton.cs",
+              "ToolTip": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Unity\\MonoBehaviour\\Singleton.cs",
+              "RelativeToolTip": "Unity\\MonoBehaviour\\Singleton.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T16:31:01.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Unity\\MonoBehaviour\\GameManager.cs",
+              "RelativeDocumentMoniker": "Unity\\MonoBehaviour\\GameManager.cs",
+              "ToolTip": "C:\\Users\\\u9686\u5143\\source\\repos\\GameMaker\\Unity\\MonoBehaviour\\GameManager.cs",
+              "RelativeToolTip": "Unity\\MonoBehaviour\\GameManager.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAowBYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T16:30:52.152Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 137,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 34,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 54,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5a4e9529-b6a0-46b5-be4f-0f0b239bc0eb}"
             }
           ]
         }

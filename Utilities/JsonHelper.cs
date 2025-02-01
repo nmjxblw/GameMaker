@@ -102,7 +102,7 @@ namespace GameMaker
 						// 那就是文件地址写错了
 						// 手动导入文件
 						fileName = Shortcut.OpenFile(JsonFilter);
-						// 用户放弃，返回default值
+						// 用户放弃，返回 default 值
 						if (string.IsNullOrEmpty(fileName)) return default;
 					}
 				}
@@ -152,7 +152,7 @@ namespace GameMaker
 					string filePath = Path.Combine(savePath, fileName);
 
 					// 使用 StreamWriter 写入文件
-					using (StreamWriter writer = new StreamWriter(filePath, false,UnicodeEncoding.UTF8))
+					using (StreamWriter writer = new StreamWriter(filePath, false, UnicodeEncoding.UTF8))
 					{
 						writer.Write(jsonString);
 					}

@@ -786,6 +786,7 @@
     <Compile Include="Unity\MonoBehaviour\Singleton.cs" />
     <Compile Include="Unity\MonoBehaviour\TestMono.cs" />
     <Compile Include="Unity\ScriptableObject\TestSO.cs" />
+    <Compile Include="Utilities\DynamicAsset.cs" />
     <Compile Include="Utilities\JsonHelper.cs" />
     <Compile Include="Utilities\QuickDictionary.cs" />
     <Compile Include="Utilities\Recorder.cs" />

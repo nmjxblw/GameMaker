@@ -454,9 +454,6 @@
     <Reference Include="Microsoft.Win32.Primitives">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\Microsoft.Win32.Primitives.dll</HintPath>
     </Reference>
-    <Reference Include="netstandard">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\netstandard.dll</HintPath>
-    </Reference>
     <Reference Include="System.AppContext">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.AppContext.dll</HintPath>
     </Reference>
@@ -754,9 +751,6 @@
     <Reference Include="System.Threading.Timer">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Timer.dll</HintPath>
     </Reference>
-    <Reference Include="System.ValueTuple">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ValueTuple.dll</HintPath>
-    </Reference>
     <Reference Include="System.Xml.ReaderWriter">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.ReaderWriter.dll</HintPath>
     </Reference>
@@ -786,7 +780,7 @@
     <Compile Include="Unity\MonoBehaviour\Singleton.cs" />
     <Compile Include="Unity\MonoBehaviour\TestMono.cs" />
     <Compile Include="Unity\ScriptableObject\TestSO.cs" />
-    <Compile Include="Utilities\DynamicAsset.cs" />
+    <Compile Include="Utilities\DynamicClass.cs" />
     <Compile Include="Utilities\JsonHelper.cs" />
     <Compile Include="Utilities\QuickDictionary.cs" />
     <Compile Include="Utilities\Recorder.cs" />

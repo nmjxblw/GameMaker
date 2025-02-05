@@ -354,3 +354,4 @@ D:\unity\GameMaker\bin\Debug\Unity.VisualScripting.IonicZip.xml
 D:\unity\GameMaker\obj\Debug\GameMaker.csproj.Up2Date
 C:\Users\隆元\source\repos\GameMaker\obj\Debug\GameMaker.Properties.Resources.resources
 C:\Users\隆元\source\repos\GameMaker\obj\Debug\GameMaker.csproj.GenerateResource.cache
+C:\Users\隆元\source\repos\GameMaker\bin\Debug\System.ValueTuple.dll

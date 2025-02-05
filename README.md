@@ -1,9 +1,9 @@
 # 实用工具
 
-- Global
-  - 全局字典
 - Recorder
   - 自动记录器
+- DynamicClass
+	- 基于ConcurrentDictionary实现的的动态对象类，能够使用JsonSerializer实现Json文件序列化和反序列化。
 
 <details>
 <summary>
